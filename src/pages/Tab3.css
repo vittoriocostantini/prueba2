@@ -1,0 +1,18 @@
+/* styles.css */
+ion-footer ion-toolbar {
+    height: 100%;
+  position: relative;
+  width: 100%;
+  background-color: rgb(202, 34, 34); /* Asegúrate de que el fondo sea visible */
+  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra para destacar */
+  height: 100px;
+}
+
+.ion-input-footer{
+  position: static;
+  background: rgb(191, 187, 187);
+  border-radius: 10px;
+  width: 100%;
+}
